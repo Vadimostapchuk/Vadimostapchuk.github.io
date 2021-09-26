@@ -9,7 +9,7 @@ nav{
      
 }
 
-.logo{
+.name{
     color: #fff;
     font-size: 28px;
     line-height: 60px;
@@ -18,12 +18,12 @@ nav{
 
 .menu{
     float: left;
-    padding-left: 432px;
+    padding-left:432px;
 }
 
-.menuli{
+.menu li{
     float: left;
-    line-height: 60px;
+    line-height:60px;
     color: #fff;
     margin-right: 40px;
     font-size: 16px;
