@@ -14,16 +14,18 @@ nav{
     font-size: 28px;
     line-height: 60px;
     padding-left: 388px;
+    float: left;
+    width: 10%;
 }
 
 .menu{
     float: left;
-    padding-left: 432px;
+    padding-left:432px;
 }
 
 .menu li{
-    float: left;
-    line-height: 60px;
+    float:left;
+    line-height:60px;
     color: #fff;
     margin-right: 40px;
     font-size: 16px;
