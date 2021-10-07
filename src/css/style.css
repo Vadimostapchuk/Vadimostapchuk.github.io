@@ -67,23 +67,33 @@ nav{
 }
 
 .about.me{
-    display: block;
     width: 100%;
     float: left;
     background: url(../img/orange_devil.png);
     background: url(../img/foto.jpg) write/cover no-repeat;
 
 }
+.orange_devil{
+    display: block;
+    margin: 0 auto;
+    margin-top: 32px;
+}
+
+.foto1{
+    display: block;
+    margin: 0 auto;
+    margin-top: 62px;
+}
+
 .info h2{
     font-size: 30px;
-    padding: 110px 0px 0px 700px;
+    padding: 110px 0px 0px 685px;
     font-weight: bold;
     color: #263244;
 }
 
 .info p{
-    float: left;
-    text-align: center;
+    float: left; 
     padding: 30px 500px 0px 500px;
     color: #3f495a;
 }
@@ -96,14 +106,36 @@ nav{
     border-radius: 5px;
     color: #7b7c89;
     font-size: 13px;
-    margin-top: 40px;
     background: url(../img/icon.png) 5% no-repeat;
-
+    margin:210px 681px 110px; 210
 }
 
 .what_can_i_do{
-    display: block;
     width: 100%;
     background: url(../img/fon2.jpg) center/cover no-repeat;
-    height: calc(100%-1800px);
+    height: 525px;
+    
+}
+
+.what_can_i_do h2{
+    font-size: 30px;
+    padding: 97px 0px 0px 675px; 
+    font-weight: bold;
+    color: #263244;
+}
+
+.orange_devil{
+    display: block;
+    margin: 0 auto;
+    margin-top: 34px;
+}
+
+.pc{
+    display: block;
+    margin: 105px 0px 36px 300px;
+}
+
+.sing{
+    display: block;
+    margin:105px 0px 36px 450px;
 }
