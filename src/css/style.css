@@ -130,12 +130,87 @@ nav{
     margin-top: 34px;
 }
 
-.pc{
-    display: block;
-    margin: 105px 0px 36px 300px;
+.what_can_i_do span{
+    color: #3f495a;
 }
 
-.sing{
+.number1{
+    float: left;
+    width: 230px;
+    text-align: center;
+    margin: 100px 14px 90px 250px;
+}
+
+.number2{
+    float: left;
+    width: 230px;
+    text-align: center;
+    margin: 100px 14px 90px 14px;
+}
+
+.number3{
+    float: left;
+    width: 230px;
+    text-align: center;
+    margin: 100px 14px 90px 14px;
+}
+
+.number4{
+    float: left;
+    width: 230px;
+    text-align: center;
+    margin: 100px 14px 90px 14px;
+}
+
+.heading{
+    color:#cf7600;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.cases{
+    width: 100%;
+    height: 1100px;
+}
+
+.cases h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #263244;
+    padding: 100px 0px 0px 685px;
+}
+
+.orange_devil1{
     display: block;
-    margin:105px 0px 36px 450px;
+    margin-left: 700px;
+    margin-top: 20px;
+}
+
+.cases h5{
+    color: #3f495a;
+    margin: 35px 0px 40px 500px;
+}
+
+.example{
+    display: block;
+    float: left;
+    width: 100%;
+
+}
+
+.cases li{
+    color: #384354;
+    font-size: 20px;
+}
+
+.cases span{
+    color: #747a85;
+}
+
+.client{
+    float: left;
+    width: 120px;
+    margin: 0px 0px 0px 300px;
 }
