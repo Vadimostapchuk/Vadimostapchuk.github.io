@@ -107,7 +107,7 @@ nav{
     color: #7b7c89;
     font-size: 13px;
     background: url(../img/icon.png) 5% no-repeat;
-    margin:210px 681px 110px; 210
+    margin:210px 681px 110px;
 }
 
 .what_can_i_do{
@@ -196,21 +196,84 @@ nav{
 .example{
     display: block;
     float: left;
-    width: 100%;
-
+    width: 1160px;
+    height: 600px;
+    margin: 0px 0px 25px 200px;
 }
 
 .cases li{
     color: #384354;
     font-size: 20px;
+    margin: 10px 0px 10px 0px;
 }
 
 .cases span{
     color: #747a85;
+    font-size: 13px;
 }
 
 .client{
     float: left;
     width: 120px;
-    margin: 0px 0px 0px 300px;
+    margin: 0px 0px 0px 200px;
 }
+
+.name_project{
+    float: left;
+    width: 840px;
+    margin: 0px 0px 0px 50px;
+}
+
+.name_project span{
+    font-size: 15px;
+}
+
+.cases input{
+    display: block;
+    float: left;
+    height: 43px;
+    text-align: center;
+    border: 2px solid #63b5ae;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    weight: 200px;
+    background-color: #63b5ae;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+.cost_calculation{
+    width: 100%;
+    float: left; 
+}
+
+.cost_calculation h2{
+    font-size: 30px;
+    padding: 200px 0px 0px 600px;
+    font-weight: bold;
+    color: #263244;
+}
+
+.cost_calculation h4{
+    color: #1c2534;
+    font-size: 20px;
+    font-weight: 550;
+    margin: 125px 0px 0px 350px;
+}
+
+.cost_calculation select{
+    display: block;
+    float: left;
+    height: 53px;
+    text-align: center;
+    border: 2px solid #eee;
+    border-radius: 5px;
+    color: #7d7d7d;
+    font-size: 15px;
+    weight: 100000px   ;
+    background-color: #eee;
+    font-weight: 600;
+    margin: 20px 0px 40px 350px;
+}
+
