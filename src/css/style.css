@@ -259,21 +259,253 @@ nav{
     color: #1c2534;
     font-size: 20px;
     font-weight: 550;
-    margin: 125px 0px 0px 350px;
+    
 }
 
 .cost_calculation select{
     display: block;
     float: left;
     height: 53px;
-    text-align: center;
+    text-align: left;
+    padding-left: 40px;
     border: 2px solid #eee;
     border-radius: 5px;
     color: #7d7d7d;
     font-size: 15px;
-    weight: 100000px   ;
+    width: 888px;
     background-color: #eee;
     font-weight: 600;
-    margin: 20px 0px 40px 350px;
+    margin-top: 20px;
 }
 
+.n1{
+    margin: 45px 0px 0px 350px;
+}
+
+.n2{
+    margin: 100px 0px 0px 350px; 
+}
+
+.n3{
+    margin: 100px 0px 0px 350px;
+}
+
+.grey_line{
+    display: block;
+    margin-left: 350px;
+    margin-top: 135px;
+}
+
+.cost_calculation p{
+    color: #1c2534;
+    font-size: 18px;
+    font-weight: 550;
+}
+
+.s{
+    margin: 20px 0px 0px 350px;
+    width: 150px;
+}
+
+.s1{
+    margin: 20px 0px 10px 350px;
+    width: 150px;
+}
+
+.statistics{
+    width: 100%;
+    background: url(../img/fon3.jpg) center/cover no-repeat;
+    height: 500px;
+    margin-top: 900px;
+}
+
+.statistics h2{
+    font-size: 30px;
+    padding: 97px 0px 0px 590px; 
+    font-weight: bold;
+    color: #263244;
+}
+
+.orange_devil2{
+    display: block;
+    margin-left: 700px;
+    margin-top: 30px;
+}
+
+.statistics li{
+    font-weight: 900;
+    font-size: 30px;
+    color: #323e4f;
+    margin: 30px 0px 30px 0px;
+}
+
+.statistics span{
+    color: #323e4f;
+    font-weight: 550;
+}
+
+.ns1{
+    float: left;
+    width: 200px;
+    text-align: center;
+    margin: 80px 50px 0px 200px;
+}
+
+.ns2{
+    float: left;
+    width: 200px;
+    text-align: center;
+    margin: 80px 50px 0px 50px;
+}
+
+.ns3{
+    float: left;
+    width: 200px;
+    text-align: center;
+    margin: 80px 50px 0px 50px;
+}
+
+.ns4{
+    float: left;
+    width: 200px;
+    text-align: center;
+    margin: 80px 50px 0px 50px;
+}
+
+.reviews{
+    width: 100%;
+    float: left;
+    height: 600px;
+    background: url(../img/foto2.jpg) write/cover no-repeat;
+}
+
+.reviews h2{
+    font-size: 30px;
+    padding: 105px 0px 0px 700px; 
+    font-weight: bold;
+    color: #263244;
+}
+
+.orange_devil3{
+    display: block;
+    margin-left: 730px;
+    margin-top: 30px;
+}
+
+.foto2{
+    display: block;
+    margin: 55px 0px 0px 720px;
+}
+
+.text{
+    color: #243042;
+    width: 700px;
+    text-align: center;
+    margin: 25px 0px 0px 430px;
+}
+
+.miha{
+    font-weight: 600;
+    color: #243042;
+}
+
+.gen{
+    color: #243042;
+    margin: 35px 0px 40px 650px;
+}
+
+.reviews input{
+    display: block;
+    float: left;
+    margin: 0px 8px 0px 8px;
+}
+
+.knop{
+    margin: 45px 0px 0px 730px;
+}
+
+.contacts{
+    width: 100%;
+    float: left;
+    height: 820px;
+    background: url(../img/fon4.jpg) center/cover no-repeat;
+    color: #fff;
+}
+
+.contacts h2{
+    font-size: 30px;
+    padding: 100px 0px 0px 670px; 
+    font-weight: bold;
+}
+
+.orange_devil4{
+    display: block;
+    margin-left: 735px;
+    margin-top: 30px;
+}
+
+.text1{
+    margin: 30px 0px 0px 450px;
+}
+
+.g1{
+    float: left;
+    width: 150px;
+    text-align: center;
+    margin: 40px 50px 0px 430px;
+}
+
+.g2{
+    float: left;
+    width: 200px;
+    text-align: center;
+    margin: 40px 50px 0px 50px;
+}
+
+.g3{
+    float: left;
+    width: 200px;
+    text-align: center;
+    margin: 40px 280px 0px 50px;
+}
+
+.text2{
+    margin-top: 10px;
+}
+.contacts h4{
+    font-size: 20px;
+    font-weight: 550;
+    margin: 150px 0px 40px 630px;
+}
+
+.send{
+    height: 40px;
+    text-align: center;
+    border: 2px solid #fff;
+    background: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 13px;
+    width: 125px;
+    margin: 30px 0px 0px 700px;
+}
+
+.email{
+    height: 35px;
+    width: 350px;
+    background-color: #d2d6dc;
+    margin-right: 25px;
+}
+
+.email1{
+    margin: 40px 0px 0px 400px;
+}
+
+.sms{
+    height: 90px;
+    width: 735px;
+    background-color: #d2d6dc;
+    margin-right: 25px;
+    text-align: left;
+    margin: 15px 0px 0px 400px;
+}
