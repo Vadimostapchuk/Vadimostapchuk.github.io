@@ -188,7 +188,7 @@ nav{
 .main{
     width:100%;
     background: url(../img/fon.jpg) center/cover no-repeat;
-    height: 100%;
+    height: 900px;
 }
 .title_container{
     float: left;   
@@ -259,6 +259,7 @@ nav{
     color: #263244;
     margin: 0 auto;
     margin-top: 100px;
+    text-align: center;
 }
 
 .info p{
@@ -276,7 +277,7 @@ nav{
     color: #7b7c89;
     font-size: 13px;
     background: url(../img/icon.png) 5% no-repeat;
-    margin:210px 681px 110px;
+    margin:0 auto;
 }
 
 .info input:hover{
@@ -289,6 +290,7 @@ nav{
 }
 
 .what_can_i_do{
+    margin-top: 90px;
     width: 100%;
     background: url(../img/fon2.jpg) center/cover no-repeat;
     height: 525px;
@@ -297,14 +299,16 @@ nav{
 
 .what_can_i_do h2{
     font-size: 30px;
-    padding: 97px 0px 0px 675px; 
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
     font-weight: bold;
     color: #263244;
+    margin-left: 25px;
 }
 
 .orange_devil{
     display: block;
-    margin: 0 auto;
     margin-top: 34px;
 }
 
@@ -312,32 +316,43 @@ nav{
     color: #3f495a;
 }
 
+.number{
+    margin-left: 140px;
+}
+
 .number1{
     float: left;
     width: 230px;
     text-align: center;
-    margin: 100px 14px 90px 250px;
+    margin-top: 100px;
+    display: block;
 }
 
 .number2{
     float: left;
     width: 230px;
     text-align: center;
-    margin: 100px 14px 90px 14px;
+    margin-top: 100px;
+    display: block;
+    margin-left: 28px;
 }
 
 .number3{
     float: left;
     width: 230px;
     text-align: center;
-    margin: 100px 14px 90px 14px;
+    margin-top: 100px;
+    display: block;
+    margin-left: 28px;
 }
 
 .number4{
     float: left;
     width: 230px;
     text-align: center;
-    margin: 100px 14px 90px 14px;
+    margin-top: 100px;
+    display: block;
+    margin-left: 28px;
 }
 
 .heading{
@@ -357,32 +372,36 @@ nav{
     font-size: 30px;
     font-weight: bold;
     color: #263244;
-    padding: 100px 0px 0px 685px;
+    text-align: center;
+    margin-top: 100px;
+   /* padding: 100px 0px 0px 685px;*/
 }
 
 .orange_devil1{
     display: block;
-    margin-left: 700px;
+    margin: 0 auto;
     margin-top: 20px;
 }
 
 .cases h5{
     color: #3f495a;
-    margin: 35px 0px 40px 500px;
+    text-align: center;
+    margin-top: 30px;
+    /*margin: 35px 0px 40px 500px;*/
 }
 
 .example{
     display: block;
-    float: left;
     width: 1160px;
     height: 600px;
-    margin: 0px 0px 25px 200px;
+    margin: 0 auto;
+    margin-top: 40px;
 }
 
 .cases li{
     color: #384354;
     font-size: 20px;
-    margin: 10px 0px 10px 0px;
+    /*margin: 10px 0px 10px 0px;*/
 }
 
 .cases span{
@@ -395,7 +414,6 @@ nav{
     width: 120px;
     margin: 0px 0px 0px 200px;
 }
-
 .name_project{
     float: left;
     width: 840px;
@@ -437,9 +455,10 @@ nav{
 
 .cost_calculation h2{
     font-size: 30px;
-    padding: 200px 0px 0px 600px;
+    padding: 200px 0px 0px 0px;
     font-weight: bold;
     color: #263244;
+    text-align: center;
 }
 
 .cost_calculation h4{
@@ -454,7 +473,6 @@ nav{
     float: left;
     height: 53px;
     text-align: left;
-    padding-left: 40px;
     border: 2px solid #eee;
     border-radius: 5px;
     color: #7d7d7d;
@@ -466,20 +484,23 @@ nav{
 }
 
 .n1{
-    margin: 45px 0px 0px 350px;
+    margin: 0 auto;
+    margin-top: 45px;
 }
 
 .n2{
-    margin: 100px 0px 0px 350px; 
+    margin: 0 auto;
+    margin-top: 100px;
 }
 
 .n3{
-    margin: 100px 0px 0px 350px;
+    margin: 0 auto;
+    margin-top: 100px;
 }
 
 .grey_line{
     display: block;
-    margin-left: 350px;
+    margin: 0 auto;
     margin-top: 135px;
 }
 
@@ -490,12 +511,14 @@ nav{
 }
 
 .s{
-    margin: 20px 0px 0px 350px;
+    margin:0 auto;
+    margin-top: 20px;
     width: 150px;
 }
 
 .s1{
-    margin: 20px 0px 10px 350px;
+    margin: 0 auto;
+    margin-top: 20px;
     width: 150px;
 }
 
@@ -508,14 +531,15 @@ nav{
 
 .statistics h2{
     font-size: 30px;
-    padding: 97px 0px 0px 590px; 
+    text-align: center;
+    margin-top: 97px; 
     font-weight: bold;
     color: #263244;
 }
 
 .orange_devil2{
     display: block;
-    margin-left: 700px;
+    margin: 0 auto;
     margin-top: 30px;
 }
 
@@ -523,7 +547,7 @@ nav{
     font-weight: 900;
     font-size: 30px;
     color: #323e4f;
-    margin: 30px 0px 30px 0px;
+    margin-top: 30px;
 }
 
 .statistics span{
@@ -535,7 +559,7 @@ nav{
     float: left;
     width: 200px;
     text-align: center;
-    margin: 80px 50px 0px 200px;
+    margin: 80px 50px 0px 0px;
 }
 
 .ns2{
@@ -568,27 +592,30 @@ nav{
 
 .reviews h2{
     font-size: 30px;
-    padding: 105px 0px 0px 700px; 
+    margin-top: 100px; 
     font-weight: bold;
     color: #263244;
+    text-align: center;
 }
 
 .orange_devil3{
     display: block;
-    margin-left: 730px;
+    margin: 0 auto;
     margin-top: 30px;
 }
 
 .foto2{
     display: block;
-    margin: 55px 0px 0px 720px;
+    margin: 0 auto;
+    margin-top: 55px;
 }
 
 .text{
     color: #243042;
     width: 700px;
     text-align: center;
-    margin: 25px 0px 0px 430px;
+    margin: 0 auto;
+    margin-top: 25px;
 }
 
 .miha{
@@ -598,7 +625,8 @@ nav{
 
 .gen{
     color: #243042;
-    margin: 35px 0px 40px 650px;
+    text-align: center;
+    margin-top: 35px;
 }
 
 .reviews input{
@@ -608,7 +636,8 @@ nav{
 }
 
 .knop{
-    margin: 45px 0px 0px 730px;
+    margin: 0 auto;
+    margin-top: 45px;
 }
 
 .contacts{
@@ -621,39 +650,47 @@ nav{
 
 .contacts h2{
     font-size: 30px;
-    padding: 100px 0px 0px 670px; 
+    text-align: center;
+    margin-top: 100px; 
     font-weight: bold;
 }
 
 .orange_devil4{
     display: block;
-    margin-left: 735px;
+    margin: 0 auto;
     margin-top: 30px;
 }
 
 .text1{
-    margin: 30px 0px 0px 450px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.g4{
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 100%;
 }
 
 .g1{
     float: left;
     width: 150px;
     text-align: center;
-    margin: 40px 50px 0px 430px;
+    /*margin: 40px 50px 0px 230px;*/
 }
 
 .g2{
     float: left;
     width: 200px;
     text-align: center;
-    margin: 40px 50px 0px 50px;
+    /*margin: 40px 50px 0px 50px;*/
 }
 
 .g3{
     float: left;
     width: 200px;
     text-align: center;
-    margin: 40px 280px 0px 50px;
+    /*margin: 40px 280px 0px 50px;*/
 }
 
 .text2{
@@ -662,7 +699,8 @@ nav{
 .contacts h4{
     font-size: 20px;
     font-weight: 550;
-    margin: 150px 0px 40px 630px;
+    margin: 0 auto;
+    margin-top: 40px;
 }
 
 .send{
