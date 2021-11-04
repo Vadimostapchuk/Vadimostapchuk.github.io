@@ -520,6 +520,11 @@ nav{
     font-weight: 550;
 }
 
+.s2{
+    float: left;
+    padding-left: 2 00px;
+}
+
 .s{
     margin:0 auto;
     margin-top: 20px;
@@ -594,7 +599,7 @@ nav{
     float: left;
     width: 200px;
     text-align: center;
-    margin: 80px 75px 0px 0px;
+    margin: 80px 0px 0px 0px;
 }
 
 .reviews{
