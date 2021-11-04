@@ -685,31 +685,25 @@ nav{
 }
 
 .g4{
-    margin: 40px 0px 50px 0px;
     max-width: 100%;
     height: 50px;
     max-height: 100%;
+    margin-top: 40px;
 }
 
-.g1{
-    float: left;
-    width: 150px;
+.g1{ 
     max-width: 100%;
     text-align: center;
     /*margin: 40px 50px 0px 230px;*/
 }
 
 .g2{
-    float: left;
-    width: 200px;
     max-width: 100%;
     text-align: center;
     /*margin: 40px 50px 0px 50px;*/
 }
 
-.g3{
-    float: left;
-    width: 200px;
+.g3{  
     max-width: 100%;
     text-align: center;
     /*margin: 40px 280px 0px 50px;*/
@@ -751,7 +745,7 @@ nav{
 .email{
     height: 35px;
     max-height: 100%;
-    width: 350px;
+    width: 46%;
     max-width: 100%;
     background-color: #d2d6dc;
     margin-right: 25px;
@@ -760,12 +754,13 @@ nav{
 .email1{
     margin: 0 auto;
     margin-top: 40px;
+    margin-left: 15px;
 }
 
 .sms{
     height: 90px;
     max-height: 100%;
-    width: 735px;
+    width: 95%;
     max-width: 100%;
     background-color: #d2d6dc;
     margin-right: 25px;
