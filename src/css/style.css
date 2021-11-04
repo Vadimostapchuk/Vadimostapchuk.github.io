@@ -195,6 +195,8 @@ nav{
     color: #2c384a;
     text-align: center;
     width: 100%;
+    max-width: 100%;
+    margin-left: 80px;
     opacity: 0;
     animation: titlemove 1s ease forwards;
     animation-delay: 2.4s;
@@ -293,7 +295,7 @@ nav{
     margin-top: 90px;
     width: 100%;
     background: url(../img/fon2.jpg) center/cover no-repeat;
-    
+    padding: 0px 0px 90px 0px;
 }
 
 .what_can_i_do h2{
@@ -316,42 +318,46 @@ nav{
 }
 
 .number{
-    margin-left: 140px;
+    padding-left: 100px;
 }
 
 .number1{
     float: left;
     width: 230px;
+    max-width: 100%;
     text-align: center;
     margin-top: 100px;
     display: block;
+    margin-right: 45px;
 }
 
 .number2{
     float: left;
     width: 230px;
+    max-width: 100%;
     text-align: center;
     margin-top: 100px;
     display: block;
-    margin-left: 28px;
+    margin-right: 45px;
 }
 
 .number3{
     float: left;
     width: 230px;
+    max-width: 100%;
     text-align: center;
     margin-top: 100px;
     display: block;
-    margin-left: 28px;
+    margin-right: 45px;
 }
 
 .number4{
     float: left;
     width: 230px;
+    max-width: 100%;
     text-align: center;
     margin-top: 100px;
     display: block;
-    margin-left: 28px;
 }
 
 .heading{
@@ -409,17 +415,19 @@ nav{
 
 .client{
     float: left;
-    width: 120px;
-    margin: 0px 0px 0px 200px;
+    width: 320px;
+    margin-top: 50px;
+    max-width: 100%;
 }
 .name_project{
     float: left;
     width: 840px;
-    margin: 0px 0px 0px 50px;
+    max-width: 100%;
+    margin: 50px 0px 0px 0px;
 }
 
 .name_project span{
-    font-size: 15px;
+    font-size: 15px; 
 }
 
 .cases input{
@@ -432,6 +440,7 @@ nav{
     color: #fff;
     font-size: 15px;
     weight: 200px;
+    max-width: 100%;
     background-color: #63b5ae;
     font-weight: 600;
     margin-top: 25px;
@@ -448,7 +457,7 @@ nav{
 
 .cost_calculation{
     width: 100%;
-
+    padding: 0px 0px 100px 0px;
 }
 
 .cost_calculation h2{
@@ -473,26 +482,31 @@ nav{
     border-radius: 5px;
     color: #7d7d7d;
     font-size: 15px;
-    width: 888px;
+    width: 880px;
+    max-width: 100%;
     background-color: #eee;
     font-weight: 600;
     margin-top: 20px;
 }
 
 .n1{
+    display: block;
     margin: 0 auto;
     margin-top: 45px;
 }
 
 .n2{
+    display: block;
     margin: 0 auto;
     margin-top: 100px;
 }
 
 .n3{
+    display: block;
     margin: 0 auto;
     margin-top: 100px;
 }
+
 
 .grey_line{
     display: block;
@@ -521,7 +535,7 @@ nav{
 .statistics{
     width: 100%;
     background: url(../img/fon3.jpg) center/cover no-repeat fixed;
-    margin-top: 900px;
+    padding: 0px 0px 100px 0px;
 }
 
 .statistics h2{
@@ -551,40 +565,40 @@ nav{
 }
 
 .ns{
-    margin: 80px 0px 100px 70px;
+    padding-left: 100px;
+
 }
 
 .ns1{
     float: left;
     width: 200px;
     text-align: center;
-    margin: 80px 50px 0px 0px;
+    margin: 80px 75px 0px 0px;
 }
 
 .ns2{
     float: left;
     width: 200px;
     text-align: center;
-    margin: 80px 50px 0px 50px;
+    margin: 80px 75px 0px 0px;
 }
 
 .ns3{
     float: left;
     width: 200px;
     text-align: center;
-    margin: 80px 50px 0px 50px;
+    margin: 80px 75px 0px 0px;
 }
 
 .ns4{
     float: left;
     width: 200px;
     text-align: center;
-    margin: 80px 50px 0px 50px;
+    margin: 80px 75px 0px 0px;
 }
 
 .reviews{
     width: 100%;
-    float: left;
     height: 600px;
     background: url(../img/foto2.jpg) write/cover no-repeat;
 }
@@ -612,6 +626,7 @@ nav{
 .text{
     color: #243042;
     width: 700px;
+    max-width: 100%;
     text-align: center;
     margin: 0 auto;
     margin-top: 25px;
@@ -641,8 +656,7 @@ nav{
 
 .contacts{
     width: 100%;
-    float: left;
-    height: 820px;
+    height: 740px;
     background: url(../img/fon4.jpg) center/cover no-repeat;
     color: #fff;
 }
@@ -666,14 +680,16 @@ nav{
 }
 
 .g4{
-    margin: 0 auto;
-    margin-top: 40px;
-    width: 100%;
+    margin: 40px 0px 50px 0px;
+    max-width: 100%;
+    height: 50px;
+    max-height: 100%;
 }
 
 .g1{
     float: left;
     width: 150px;
+    max-width: 100%;
     text-align: center;
     /*margin: 40px 50px 0px 230px;*/
 }
@@ -681,6 +697,7 @@ nav{
 .g2{
     float: left;
     width: 200px;
+    max-width: 100%;
     text-align: center;
     /*margin: 40px 50px 0px 50px;*/
 }
@@ -688,6 +705,7 @@ nav{
 .g3{
     float: left;
     width: 200px;
+    max-width: 100%;
     text-align: center;
     /*margin: 40px 280px 0px 50px;*/
 }
@@ -711,7 +729,9 @@ nav{
     color: #fff;
     font-size: 13px;
     width: 125px;
-    margin: 30px 0px 0px 700px;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
 }
 
 .contacts input:hover{
@@ -725,20 +745,26 @@ nav{
 
 .email{
     height: 35px;
+    max-height: 100%;
     width: 350px;
+    max-width: 100%;
     background-color: #d2d6dc;
     margin-right: 25px;
 }
 
 .email1{
-    margin: 40px 0px 0px 400px;
+    margin: 0 auto;
+    margin-top: 40px;
 }
 
 .sms{
     height: 90px;
+    max-height: 100%;
     width: 735px;
+    max-width: 100%;
     background-color: #d2d6dc;
     margin-right: 25px;
     text-align: left;
-    margin: 15px 0px 0px 400px;
+    margin: 0 auto;
+    margin-top: 15px;
 }
