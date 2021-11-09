@@ -129,6 +129,7 @@ nav{
 
 .menu{
     float: left;
+    z-index: 2;
 }
 
 .menu li{
@@ -394,12 +395,17 @@ nav{
     /*margin: 35px 0px 40px 500px;*/
 }
 
+.carousel-inner{
+    z-index: 1;
+}
+
 .example{
     display: block;
     width: 1160px;
     max-width: 100%;
     margin: 0 auto;
     margin-top: 40px;
+    z-index: 1;
 }
 
 .cases li{
@@ -520,25 +526,14 @@ nav{
     font-weight: 550;
 }
 
-.s3{
-    margin-left: 100px;
-}
-
-.s2{
-    float: left;
-    padding-left: 200px;
-}
-
 .s{
     margin:0 auto;
     margin-top: 20px;
-    width: 150px;
 }
 
 .s1{
     margin: 0 auto;
     margin-top: 20px;
-    width: 150px;
 }
 
 .statistics{

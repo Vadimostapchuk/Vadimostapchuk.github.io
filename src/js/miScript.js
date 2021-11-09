@@ -43,7 +43,45 @@ summa = summa1 + summa2 + summa3;
 
 $('.s4').change.val(summa);
 */
+	$(document).ready(function() {
+	var value =	$('#list').val();
+	let summa1 ;
+	let summa2;
+	let summa3;
+	let summa;
+	if(value == 2){
+	summa1 = 5000;
+}
+	if(value == 3){
+	summa1 = 6000;
+}
+	if(value == 4){
+	summa1 = 7000;
+}	
+	var value1 = $('#list1').val();
+	if(value1 == 2){
+	summa2 = 0;
+}
+	if(value1 == 3){
+	summa2 = 2000;
+}
+	var value2 = $('#list2').val();
+	if(value2 == 2){
+	summa3 = 1000;
+}
+	if(value2 == 3){
+	summa3 = 2000;
+}
+	if(value2 == 4){
+	summa3 = 3000;
+}
 
+summa = summa1 + summa2 + summa3;
+
+$('.s4').change.val(summa);
+
+
+});
 	$(document).ready(function() {
   	$('.example').magnificPopup({type:'image'});
 });
