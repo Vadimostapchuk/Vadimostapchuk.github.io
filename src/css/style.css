@@ -15,6 +15,7 @@ nav{
     height: 60px;
     background: #344051;
     position: fixed;
+    z-index: 100;
 }
 
 .preloader {
@@ -529,11 +530,13 @@ nav{
 .s{
     margin:0 auto;
     margin-top: 20px;
+    margin-left: 50px;
 }
 
 .s1{
     margin: 0 auto;
     margin-top: 20px;
+    margin-left: 50px;
 }
 
 .statistics{

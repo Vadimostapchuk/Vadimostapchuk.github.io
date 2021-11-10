@@ -43,7 +43,7 @@ summa = summa1 + summa2 + summa3;
 
 $('.s4').change.val(summa);
 */
-	$(document).ready(function() {
+	$('select').on("change", function(){
 	var value =	$('#list').val();
 	let summa1 ;
 	let summa2;
@@ -78,7 +78,7 @@ $('.s4').change.val(summa);
 
 summa = summa1 + summa2 + summa3;
 
-$('.s4').change.val(summa);
+$('.s4').text(summa);
 
 
 });
@@ -118,7 +118,7 @@ $(document).ready(function () {
     });
  
 });
-
+/*
 $(document).ready(function () {
 setTimeout(function(){
   $.colorbox({
