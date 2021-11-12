@@ -313,6 +313,7 @@ nav{
 .orange_devil{
     display: block;
     margin-top: 34px;
+    margin-bottom: 100px;
 }
 
 .what_can_i_do span{
@@ -320,46 +321,32 @@ nav{
 }
 
 .number{
-    padding-left: 100px;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .number1{
     float: left;
-    width: 230px;
     max-width: 100%;
     text-align: center;
-    margin-top: 100px;
-    display: block;
-    margin-right: 45px;
 }
 
 .number2{
     float: left;
-    width: 230px;
     max-width: 100%;
     text-align: center;
-    margin-top: 100px;
-    display: block;
-    margin-right: 45px;
 }
 
 .number3{
     float: left;
-    width: 230px;
     max-width: 100%;
     text-align: center;
-    margin-top: 100px;
-    display: block;
-    margin-right: 45px;
 }
 
 .number4{
     float: left;
-    width: 230px;
     max-width: 100%;
     text-align: center;
-    margin-top: 100px;
-    display: block;
 }
 
 .heading{

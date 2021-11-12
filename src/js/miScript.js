@@ -49,36 +49,36 @@ $('.s4').change.val(summa);
 	let summa2;
 	let summa3;
 	let summa;
-	if(value == 2){
+	if(value == 'Opt2'){
 	summa1 = 5000;
 }
-	if(value == 3){
+	if(value == 'Opt3'){
 	summa1 = 6000;
 }
-	if(value == 4){
+	if(value == 'Opt4'){
 	summa1 = 7000;
 }	
 	var value1 = $('#list1').val();
-	if(value1 == 2){
+	if(value1 == 'Opt2'){
 	summa2 = 0;
 }
-	if(value1 == 3){
+	if(value1 == 'Opt3'){
 	summa2 = 2000;
 }
 	var value2 = $('#list2').val();
-	if(value2 == 2){
+	if(value2 == 'Opt2'){
 	summa3 = 1000;
 }
-	if(value2 == 3){
+	if(value2 == 'Opt3'){
 	summa3 = 2000;
 }
-	if(value2 == 4){
+	if(value2 == 'Opt4'){
 	summa3 = 3000;
 }
 
 summa = summa1 + summa2 + summa3;
 
-$('.s4').text(summa);
+$('.s4').text(summa + " ₽");
 
 
 });
@@ -118,6 +118,24 @@ $(document).ready(function () {
     });
  
 });
+
+$(document).ready(function() {
+	$('.form').submit(function(event){
+		event.preventDefault();
+
+		$ajax({
+			type: "post",
+			url: "php/mail.php",
+			data: $(this).serialize()
+		}).done(function(){
+			$(this).find("input").val(" ");
+			alert("Успешно отправлено!");
+			$("form").trigger("reset");
+		});
+		return false;
+	});
+
+});	
 /*
 $(document).ready(function () {
 setTimeout(function(){
