@@ -198,7 +198,7 @@ nav{
     text-align: center;
     width: 100%;
     max-width: 100%;
-    margin-left: 80px;
+    /*margin-left: 80px;*/
     opacity: 0;
     animation: titlemove 1s ease forwards;
     animation-delay: 2.4s;
@@ -389,7 +389,7 @@ nav{
 
 .example{
     display: block;
-    width: 1160px;
+    width: 100%;
     max-width: 100%;
     margin: 0 auto;
     margin-top: 40px;
@@ -409,13 +409,13 @@ nav{
 
 .client{
     float: left;
-    width: 320px;
+    width: 100%px;
     margin-top: 50px;
     max-width: 100%;
 }
 .name_project{
     float: left;
-    width: 840px;
+    width: 100%px;
     max-width: 100%;
     margin: 50px 0px 0px 0px;
 }
@@ -476,7 +476,7 @@ nav{
     border-radius: 5px;
     color: #7d7d7d;
     font-size: 15px;
-    width: 880px;
+    width: 100%;
     max-width: 100%;
     background-color: #eee;
     font-weight: 600;
@@ -506,6 +506,7 @@ nav{
     display: block;
     margin: 0 auto;
     margin-top: 135px;
+    width: 100%;
 }
 
 .cost_calculation span{
@@ -615,6 +616,24 @@ nav{
     margin-top: 30px;
 }
 
+.carousel-indicators{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 2px solid black;
+    background: #aaa;
+    cursor: pointer;
+    margin: 50px;
+}
+
+#button1:checked ~ #hw1,
+#button2:checked ~ #hw2,
+#button3:checked ~ #hw3,
+#button4:checked ~ #hw4 {
+  background: #fff;
+}
+
 .foto2{
     display: block;
     margin: 0 auto;
@@ -623,7 +642,7 @@ nav{
 
 .text{
     color: #243042;
-    width: 700px;
+    width: 100%;
     max-width: 100%;
     text-align: center;
     margin: 0 auto;
