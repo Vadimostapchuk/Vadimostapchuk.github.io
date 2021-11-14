@@ -244,7 +244,7 @@ nav{
     background: url(../img/foto.jpg) write/cover no-repeat;
 
 }
-.orange_devil{
+.orange_devili{
     display: block;
     margin: 0 auto;
     margin-top: 32px;
@@ -254,6 +254,8 @@ nav{
     display: block;
     margin: 0 auto;
     margin-top: 62px;
+    width: 200px;
+    height: 200px;
 }
 
 .info h2{
@@ -311,8 +313,9 @@ nav{
 
 .orange_devil{
     display: block;
+    margin: 0 auto;
     margin-top: 34px;
-    margin-bottom: 100px;
+   /* margin-bottom: 100px;*/
 }
 
 .what_can_i_do span{
@@ -328,24 +331,28 @@ nav{
     float: left;
     max-width: 100%;
     text-align: center;
+    margin-top: 100px;
 }
 
 .number2{
     float: left;
     max-width: 100%;
     text-align: center;
+    margin-top: 100px;
 }
 
 .number3{
     float: left;
     max-width: 100%;
     text-align: center;
+    margin-top: 100px;
 }
 
 .number4{
     float: left;
     max-width: 100%;
     text-align: center;
+    margin-top: 100px;
 }
 
 .heading{
@@ -408,13 +415,13 @@ nav{
 
 .client{
     float: left;
-    width: 100%px;
+    width: 320px;
     margin-top: 50px;
     max-width: 100%;
 }
 .name_project{
     float: left;
-    width: 100%px;
+    width: 840px;
     max-width: 100%;
     margin: 50px 0px 0px 0px;
 }
@@ -616,7 +623,7 @@ nav{
     margin-top: 30px;
 }
 
-/*.carousel-indicators{
+/*.carousel-indicators1{
     display: inline-block;
     height: 20px;
     width: 20px;
@@ -634,6 +641,8 @@ nav{
   background: #fff;
 }
 */
+
+
 .foto2{
     display: block;
     margin: 0 auto;
