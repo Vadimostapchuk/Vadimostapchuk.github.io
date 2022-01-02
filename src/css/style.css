@@ -100,6 +100,7 @@ nav{
     margin-top: calc(-1 * var(--bs-gutter-y));
     margin-left: 0px;
     margin-right: 0px;
+    height: 100%;
 }
 
 .name{
@@ -215,7 +216,7 @@ nav{
     opacity: 0;
     animation: titlemove 1s ease forwards;
     animation-delay: 2.4s;
-   
+    margin-top: 200px;
 }
 
 .title_container h1{
