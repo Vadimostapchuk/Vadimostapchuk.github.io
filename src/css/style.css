@@ -216,12 +216,13 @@ nav{
 
 .title_container input{
     height: 40px;
+    width: 20%;
     text-align: center;
     border: 2px solid #6d7682;
     background: none;
     border-radius: 5px;
     color: #6d7682;
-    font-size: 13px;
+    font-size: 18px;
     padding: 0px 16px;
     margin: 58px 14px 0px 14px;
     transition-duration: 0.2s;
@@ -715,7 +716,7 @@ nav{
 
 .contacts{
     width: 100%;
-    height: 740px;
+    height: 850px;
     background: url(../img/fon4.jpg) center/cover no-repeat;
     color: #fff;
 }
@@ -799,10 +800,10 @@ nav{
 .email{
     height: 35px;
     max-height: 100%;
-    width: 46%;
-    max-width: 100%;
+    width: 95%;
     background-color: #d2d6dc;
-    margin-right: 25px;
+    margin-right: 16px;
+    margin-top: 15px;
 }
 
 .email1{
