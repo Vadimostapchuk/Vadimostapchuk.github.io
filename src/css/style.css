@@ -90,7 +90,7 @@ nav{
 
 .name{
     color: #fff;
-    font-size: 28px;
+    font-size: 20px;
     line-height: 60px;
     animation: comming 2s ease;
 }
@@ -315,7 +315,7 @@ nav{
     display: block;
     margin: 0 auto;
     margin-top: 34px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .what_can_i_do span{
@@ -349,6 +349,10 @@ nav{
     float: left;
     max-width: 100%;
     text-align: center;
+}
+
+.pc{
+    margin-top: 10px;
 }
 
 .heading{
@@ -573,6 +577,7 @@ nav{
 }
 
 .ns1{
+    width: 20%;
     float: left;
     max-width: 100%;
     text-align: center;
@@ -580,6 +585,7 @@ nav{
 }
 
 .ns2{
+    width: 20%;
     float: left;
     max-width: 100%;
     text-align: center;
@@ -587,6 +593,7 @@ nav{
 }
 
 .ns3{
+    width: 20%;
     float: left;
     max-width: 100%;
     text-align: center;
@@ -594,6 +601,7 @@ nav{
 }
 
 .ns4{
+    width: 20%;
     float: left;
     max-width: 100%;
     text-align: center;
