@@ -315,7 +315,7 @@ nav{
     display: block;
     margin: 0 auto;
     margin-top: 34px;
-   /* margin-bottom: 100px;*/
+    margin-bottom: 100px;
 }
 
 .what_can_i_do span{
@@ -331,28 +331,24 @@ nav{
     float: left;
     max-width: 100%;
     text-align: center;
-    margin-top: 100px;
 }
 
 .number2{
     float: left;
     max-width: 100%;
     text-align: center;
-    margin-top: 100px;
 }
 
 .number3{
     float: left;
     max-width: 100%;
     text-align: center;
-    margin-top: 100px;
 }
 
 .number4{
     float: left;
     max-width: 100%;
     text-align: center;
-    margin-top: 100px;
 }
 
 .heading{
@@ -392,6 +388,7 @@ nav{
 .carousel-inner{
     z-index: 1;
 }
+
 
 .example{
     display: block;
@@ -622,6 +619,34 @@ nav{
     margin: 0 auto;
     margin-top: 30px;
 }
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: #344051;
+}
+
+.carousel-indicators [data-bs-target] {
+    color: #344051;   
+    box-sizing: content-box;   
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    padding: 0;
+    color: ;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #344051;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px
+ solid transparent;
+    border-bottom: 10px
+ solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+
 
 /*.carousel-indicators1{
     display: inline-block;
