@@ -216,6 +216,7 @@ nav{
     opacity: 0;
     animation: titlemove 1s ease forwards;
     animation-delay: 2.4s;
+    margin-top: 250px;
 }
 
 .title_container h1{
