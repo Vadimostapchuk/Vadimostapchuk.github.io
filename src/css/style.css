@@ -803,12 +803,12 @@ nav{
     margin-top: 30px;
 }
 
-.contacts input:hover{
+.contacts button:hover{
     background-color: #d17700;
     color: #fff;
 }
 
-.contacts input:active{
+.contacts button:active{
     transform: scale(1.1);
 }
 
