@@ -450,19 +450,19 @@ justify-content: space-between;
 
 .number1{
     float: left;
-    max-width: 100%;
+    max-width: 90%;
     text-align: center;
 }
 
 .number2{
     float: left;
-    max-width: 100%;
+    max-width: 90%;
     text-align: center;
 }
 
 .number3{
     float: left;
-    max-width: 100%;
+    max-width: 90%;
     text-align: center;
 }
 
@@ -479,7 +479,8 @@ justify-content: space-between;
 
 @media (max-width: 490px){
     .pc{
-        width: 350px;
+        width: 300px;
+        height: 250px;
     }
 }
 
