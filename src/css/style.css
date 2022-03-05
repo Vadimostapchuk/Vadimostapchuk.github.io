@@ -221,6 +221,12 @@ body{
     height: 300px;   
 }
 
+@media (max-width: 420px){
+    .service-price{
+        height: 400px;
+    }
+}
+
 .service-price__title {
     background-color: #454440;
     width: 100%;
@@ -471,6 +477,11 @@ justify-content: space-between;
     width: 400px;
     height: 300px;
     margin-bottom: 10px;
+}
+
+.pc1{
+    width: 400px;
+    height: 300px;
 }
 
 .number span{
