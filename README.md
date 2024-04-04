@@ -3,17 +3,17 @@
 
 ## Содержание
 - [Технологии](#технологии)
-- [Использование](#использование)
+- [Проекты](#проекты)
 
 ## Технологии
 - [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
 - [PocketBase](https://pocketbase.io/docs)
 - JS/Html/CSS
 
-## Использование
-Установите [PocketBase](https://github.com/pocketbase/pocketbase/releases) в репозиторий.
-
-Запустите проект:
-```sh
-$ ./pocketbase serve
-```
+## Проекты
+- [accounting](https://vadimostapchuk.github.io/accounting/) - сайт для компании, которая предоставляет бухгалтерские услуги
+- [bestpixel](https://vadimostapchuk.github.io/bestpixel/) - прототип сайта для личного агентсва разработки
+- [building](https://vadimostapchuk.github.io/building/) - лэндинг для компании, которая занимается фундаментами
+- [galery](https://vadimostapchuk.github.io/galery/) - лэндинг для компании, которая занимается теплицами
+- [komfort_sreda](https://vadimostapchuk.github.io/komfort_sreda/) - сайт управляющий компании
+- [tandem](https://vadimostapchuk.github.io/tandem/) - сайт для дистрибьюторской компании
