@@ -1,0 +1,1102 @@
+html, body {
+    font-family: 'TT Commons';
+}
+ul {
+    padding: 0;
+}
+ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+@font-face {
+  font-family: "Literature Decor";
+  src: url("../font/Literature-Decor.ttf");
+}
+
+@font-face {
+  font-weight: 600;
+  font-family: "TT Commons";
+  src: url("../font/TTCommons-Bold.ttf");
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: "TT Commons";
+  src: url("../font/TTCommons-ExtraBold.ttf");
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: "TT Commons";
+  src: url("../font/TTCommons-Regular.ttf");
+}
+
+@font-face {
+  font-weight: 300;
+  font-family: "TT Commons";
+  src: url("../font/TTCommons-Light.ttf");
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: "TT Commons";
+  src: url("../font/TTCommons-Medium.ttf");
+}
+
+.hamburger-menu{
+    display: none;
+}
+
+#menu__toggle {
+  opacity: 0;
+}
+
+#menu__toggle:checked ~ .menu__btn > span {
+  transform: rotate(45deg);
+  width: 30px;
+}
+#menu__toggle:checked ~ .menu__btn > span::before {
+  top: 0;
+  right: 0;
+  transform: rotate(0);
+  width: 30px;
+}
+#menu__toggle:checked ~ .menu__btn > span::after {
+  top: 0;
+  transform: rotate(90deg);
+  right: 0;
+  width: 30px;
+}
+
+#menu__toggle:checked ~ .menu__btn{
+    width: 50px;
+}
+
+#menu__toggle:checked ~ .menu__box {
+  visibility: visible;
+  right: 0;
+  background: #fff;
+color: white;
+text-align: center;
+}
+
+.menu__btn {
+      display: flex;
+    align-items: center;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    width: 57px;
+    height: 50px;
+    cursor: pointer;
+    z-index: 11;
+    background-color: rgba(154, 195, 255, 1);
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+      display: block;
+    position: absolute;
+    width: 42px;
+    height: 2px;
+    background-color: #fff;
+    transition-duration: .25s;
+}
+.menu__btn > span::before {
+  content: '';
+  top: -8px;
+  right: -5px;
+}
+.menu__btn > span::after {
+  content: '';
+  top: 8px;
+  right: -5px;
+}
+
+.menu__box {
+  display: block;
+  position: fixed;
+  visibility: hidden;
+  top: 0;
+  right: -100%;
+  z-index: 10;
+  width: 200px;
+  height: 100%;
+  margin: 0;
+  padding: 80px 0;
+  list-style: none;
+  background-color: #fff;
+  transition-duration: .25s;
+  box-shadow: 1px 0px 6px rgba(92, 131, 255, 1);
+}
+.menu_item1{
+    color: black;
+    text-decoration: none;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.menu_item1:hover{
+    color: black;
+    text-decoration: none;
+}
+
+.menu__box button{
+    background-color: #ffa001;
+    width: 80%;
+    border-radius: 5px;
+    border: 2px solid #ffa001;
+    color: white;
+    padding: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.menu{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    color: white;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu p{
+    margin-top: 12px;
+}
+
+.menu button{
+    font-family: TT Commons;
+    font-size: 25px;
+    font-weight: 500;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 293px;
+    border: 2px solid #fff;
+    border-radius: 60px;
+    color: white;
+    background: transparent;
+    margin-top: -10px;
+}
+
+.logo_menu{
+    width: 394px;  
+    margin-left: 53px;         
+}
+
+header a:hover{
+    text-decoration: none;
+}
+
+.center{
+    text-align: center;
+}
+
+.right{
+    text-align: right;
+}
+
+.main{
+    width: 100%;    
+    padding-bottom: 27%;
+    background: url(../img/main_fon.svg) center/cover no-repeat;
+}
+
+.main h1{
+    font-family: Literature Decor;
+    font-size: 75px;
+    font-weight: 400;
+    line-height: 86px;
+    letter-spacing: 0em;
+    color: white;
+    margin-top: 6%;
+}
+
+.main h3{
+    font-family: TT Commons;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    max-width: 547px;
+    display: inline-block;
+    margin-top: 2%;
+}
+
+.main_button{
+    width: 403px;
+    border-radius: 60px;
+    background: white;
+    font-family: TT Commons;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    color: black;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-bottom: 31px;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.img_photo{
+    width: 496px;
+    max-width: 100%;
+}
+
+.about h2{
+    font-family: Literature Decor;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.about p{
+    font-family: TT Commons;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    margin-bottom: 0px;
+}
+
+.about p img{
+    margin-left: 10px;
+}
+
+.img_photo2{
+    width: 421px;
+    max-width: 100%;
+}
+
+.about h3{
+    font-family: TT Commons;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 46px;
+    letter-spacing: 0em;
+}
+
+.about h4{
+    font-family: TT Commons;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    color: rgba(140, 140, 140, 1);
+    margin-top: 35px;
+}
+
+.about h5{
+    font-family: TT Commons;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0em;
+    margin-top: 14px;
+}
+
+.lines{
+    position: relative;
+}
+
+.line1{
+    position: absolute;
+    right: 52%;
+}
+
+.line2{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+
+.partners h2{
+    font-family: Literature Decor;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.partners h3{
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.rec_svg{
+    width: 170px;
+    max-width: 100%;
+}
+
+.partners h4{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    margin-top: 6px;
+}
+
+.partners p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    max-width: 340px;
+    margin-top: 22px;
+    margin-bottom: 0px;
+}
+
+.partners h5{
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    color:rgba(92, 131, 255, 1);
+    margin-top: 25px;
+    display: inline-block;
+}
+
+.part_strel{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: -3px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.column {
+    padding: 20px;
+}
+
+.column-3 {
+    grid-column: span 3;
+    padding: 20px;
+}
+
+.btn_bolshe{
+    font-family: TT Commons;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    color: rgba(92, 131, 255, 1);
+    width: 293px;
+    padding-top: 16px;
+    padding-bottom: 14px;
+    border-radius: 60px;
+    border: 2px solid rgba(92, 131, 255, 1);
+    background: transparent;
+}
+
+.partners h1{
+    font-family: Literature Decor;
+    font-size: 94px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    color: rgba(72, 78, 218, 1);
+}
+
+.partners h6{
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    max-width: 503px;
+}
+
+.btn_part_or{
+    width: 320px;
+    border-radius: 48px;
+    background: rgba(92, 131, 255, 0.3);
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding-bottom: 20px;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    padding-right: 23px;
+    padding-left: 23px;
+}
+
+.parts h2{
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0em;
+}
+
+.parts img{
+    width: 170px;
+    max-width: 100%;
+}
+
+.parts p{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    margin-bottom: 0px;
+}
+
+.parts h3{
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+}
+
+.parts h4{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: 0em;
+}
+
+.more_parts{
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    width: 293px;
+    padding-top: 22px;
+    padding-bottom: 19px;
+    color: rgba(92, 131, 255, 1);
+    border-radius: 60px;
+    border: 2px solid rgba(92, 131, 255, 1);
+    background: transparent;
+}
+
+.parts h5{
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0em;
+}
+
+.internet_market{
+    width: 157.5px;
+    max-width: 100%;
+}
+
+.parts h6{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    margin-top: 30px;
+}
+
+.parts h6 img{
+    width: 14px;
+    margin-left: 10px;
+}
+
+.why_me{
+    background: rgba(72, 78, 218, 1);
+}
+
+.why_me h2{
+    font-family: Literature Decor;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 65px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+.why_line{
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.why_me h3{
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 45px;
+    letter-spacing: 0em;
+    color: rgba(154, 195, 255, 0.55);
+}
+
+.why_me img{
+    width: 50px;
+}
+
+.why_me h4{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    letter-spacing: 0em;
+    color: white;
+}
+
+.why_me p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    color: white;
+}
+
+.why_me1{
+    background: url(../img/why.png) no-repeat;
+    background-size: 456px;
+    width: 100%;
+    background-position-x: 100%;
+    background-position-y: 65%;
+}
+
+.contact{
+    width: 100%;
+    background: url(../img/fon_con.svg) center/cover no-repeat;
+}
+
+.contact_fon{
+    width: 100%;
+    background: rgba(0, 0, 57, 0.55);
+}
+
+.contact h2{
+    font-family: Literature Decor;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 91px;
+    letter-spacing: 0em;
+    color: white;
+}
+
+.right{
+    text-align: right;
+}
+
+.contact p{
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    max-width: 417px;
+    color: white;
+}
+
+.input_text{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+.input_text:focus-visible{
+    outline: 0px;
+}
+
+.input_text::-webkit-input-placeholder {
+    color: #fff;
+} 
+
+.input_text::-moz-placeholder {
+    color: #fff;
+}
+
+.contact h6{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+}
+
+.input_btn{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    background: white;
+    color: rgba(0, 0, 0, 1);
+    width: 100%;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    border: none;
+    border-radius: 60px;
+    text-transform: uppercase;
+}
+
+.foot{
+    background: rgba(92, 131, 255, 1);
+}
+
+.foot h2{
+    font-family: Literature Decor;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 91px;
+    letter-spacing: 0em;
+    color: white;
+}
+
+.mail_foot{
+    width: 60px;
+    margin-right: 12px;
+}
+
+.foot h3{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    color: white;
+    display: inline-block;
+}
+
+.phone_foot{
+    width: 35px;
+    margin-right: 12px;
+}
+
+.foot h4{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0em;
+    color: white;
+}
+
+.foot h5{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    color: white;
+}
+
+.menu button:hover{
+    background: white;
+    color: black;
+}
+
+.main_button:hover{
+    background: transparent;
+    border: 1px solid white;
+}
+
+.btn_bolshe:hover{
+    background: rgba(92, 131, 255, 1);
+    color: white;
+}
+
+.btn_part_or:hover{
+    background: rgba(92, 131, 255, 1);
+}
+
+.more_parts:hover{
+    background: rgba(92, 131, 255, 1);
+    color: white;
+}
+
+.input_btn:hover{
+    background: black;
+    color: white;
+    border: 2px solid white;
+}
+
+.main a:hover{
+    text-decoration: none;
+}
+
+.about{
+    background: url(../img/fon.png) no-repeat;
+    background-size: 650px;
+}
+
+@media(max-width: 1400px){
+    .menu{
+        font-size: 16px;
+    }
+    .menu button{
+        font-size: 20px;
+        max-width: 100%;
+    }
+    .line2{
+        top: 45%;
+    }
+    .why_me1{
+        background: none;
+    }
+}
+
+@media(max-width: 1200px){
+    .hamburger-menu{
+        display: block
+    }
+    .main h1{
+        margin-top: 15%;
+    }
+    .about{
+        background-size: 550px;
+    }
+}
+
+.partners a:hover{
+        text-decoration: none;
+}
+
+@media(max-width: 992px){
+    .grid{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .parts h6{
+        font-size: 18px;
+    }
+    .why_me h2{
+        font-size: 40px;
+        line-height: 55px;
+    }
+    .contact p{
+        display: inline-block;
+    }
+    .main h1{
+        margin-top: 25%;
+    }
+    .about{
+        background: none;
+    }
+}
+
+@media(max-width: 768px){
+    .main_button{
+        padding-top: 25px;
+        padding-bottom: 21px;
+    }
+    .img_photo{
+        width: 330px;
+    }
+    .grid {
+    grid-template-columns: repeat(2, 1fr);
+}
+.foot h3{
+    font-size: 20px;
+}
+}
+
+.perekrestok{
+    margin-top: 42px
+}
+
+.fcon_width{
+    width: 74px;
+}
+
+@media(max-width: 576px){
+    .main h1{
+        font-size: 36.04px;
+        line-height: 41.08px;
+        text-align: left;
+        margin-top: 100px;
+    }
+    .main{
+        height: 717px;
+        background-position-x: 70%;
+    }
+    .main h3{
+        font-size: 20px;
+        line-height: 24px;
+        max-width: 240px;
+    }
+    .main_button{
+        font-size: 19px;
+        font-weight: 500;
+        line-height: 21px;
+        letter-spacing: 0em;
+        width: 300px;
+        height: 58.36px;
+        border-radius: 44.67px; 
+        padding-top: 21px;
+        padding-bottom: 23px;
+    }
+    .main_button img{
+        width: 13px;
+        margin-top: 3px;
+    }
+    .about h2{
+        font-size: 23px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0em;
+    }
+    .about p{
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 21px;
+        letter-spacing: 0em;
+    }
+    .img_photo{
+        width: 190px;
+    }
+    .about h6{
+        font-size: 18px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: right;
+        margin-top: -100px;
+    }
+    .about h3{
+        font-size: 36px;
+        font-style: italic;
+        font-weight: 500;
+        line-height: 41px;
+        letter-spacing: 0em;
+        color: rgba(0, 5, 123, 1);
+        margin-bottom: 0px;
+    }
+    .mob_line{
+        background: rgba(100, 154, 234, 0.3);
+        height: 467px;
+        width: 2px;
+    }
+    .about h4{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0em;
+        margin-top: 25px;
+    }
+    .about h5{
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 29px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-bottom: 26px;
+    }
+    .mob_bot_line{
+        height: 2px;
+        width: 100%;
+        background: rgba(100, 154, 234, 0.3);
+        margin-left: calc(var(--bs-gutter-x) * -1.1);
+    }
+    .partners h2{
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 29px;
+        letter-spacing: 0em;
+    }
+    .partners h3{
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 29px;
+        letter-spacing: 0em;
+    }
+    .partners h4{
+        font-size: 23px;
+        font-weight: 500;
+        line-height: 27px;
+    }
+    .partners p{
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 18px;
+        letter-spacing: 0em;
+    }
+    .btn_bolshe{
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: 0em;   
+    }
+    .partners h6{
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 23px;
+        margin-top: 35%;
+    }
+    .btn_part_or{
+        font-size: 19px;
+        font-weight: 500;
+        line-height: 21px;
+        letter-spacing: 0em;
+    }
+    .parts h2{
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 29px;
+        letter-spacing: 0em;
+    }
+    .parts h3{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+    }
+    .parts h4{
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 25px;
+        letter-spacing: 0em;
+    }
+    .grid {
+    grid-template-columns: repeat(3, 1fr);
+}
+    .parts img{
+        width: 85px;
+    }
+    .parts p{
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 14px;
+    }
+    .perekrestok{
+        margin-top: 5px;
+    }
+    .more_parts{
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: 0em;
+    }
+    .parts h5{
+        text-align: left;
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 29px;
+        letter-spacing: 0em;
+    }
+    .parts img{
+        width: 120px;
+    }
+    .why_me h2{
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 38px;
+        letter-spacing: 0em;
+    }
+    .why_me h4{
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 30px;
+        letter-spacing: 0em;
+    }
+    .why_me p{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+    }
+    .contact h2{
+        font-size: 44px;
+        font-weight: 400;
+        line-height: 50px;
+    }
+    .fcon_width{
+        width: 41px;
+    }
+    .contact p{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0em;
+        max-width: 237px;
+    }
+    .input_text{
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 23px;
+        letter-spacing: 0em;
+    }
+    .contact h6{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+    }
+    .input_btn{
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 23px;
+        letter-spacing: 0em;
+        padding-top: 22px;
+        padding-bottom: 17px;
+    }
+    .foot h2{
+        font-size: 53px;
+        font-weight: 400;
+        line-height: 60px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    .logo_menu{
+        width: 264px;
+    }
+    .sm_center{
+        text-align: center !important;
+    }
+    .foot h4{
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 25px;
+        letter-spacing: 0em;
+    }
+    .part_block {
+        display: none;
+    }
+    .part_block:nth-child(-n+3) {
+        display: block;
+    }
+}
+
+.menu__btn span{
+    right: 10px;
+}
+
+.foot a:hover{
+    text-decoration: none;
+}
+
+.parts a{
+    text-decoration: none;
+    color: black
+}
