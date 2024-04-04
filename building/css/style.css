@@ -1,0 +1,991 @@
+html, body {
+    font-family: 'Geist';
+    color: black;
+}
+ul {
+    padding: 0;
+}
+ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+@font-face {
+  font-family: "Concrete";
+  src: url("../font/Concrete-Regular.otf");
+}
+
+@font-face {
+  font-weight: 600;
+  font-family: "Geist";
+  src: url("../font/Geist-SemiBold.otf");
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: "Geist";
+  src: url("../font/Geist-Bold.otf");
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: "Geist";
+  src: url("../font/Geist-Regular.otf");
+}
+
+@font-face {
+  font-weight: 300;
+  font-family: "Geist";
+  src: url("../font/Geist-Light.otf");
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: "Geist";
+  src: url("../font/Geist-Medium.otf");
+}
+
+.hamburger-menu{
+    display: none;
+}
+
+#menu__toggle {
+  opacity: 0;
+}
+
+#menu__toggle:checked ~ .menu__btn > span {
+  transform: rotate(45deg);
+  width: 30px;
+}
+#menu__toggle:checked ~ .menu__btn > span::before {
+  top: 0;
+  right: 0;
+  transform: rotate(0);
+  width: 30px;
+}
+#menu__toggle:checked ~ .menu__btn > span::after {
+  top: 0;
+  transform: rotate(90deg);
+  right: 0;
+  width: 30px;
+}
+
+#menu__toggle:checked ~ .menu__btn{
+    width: 50px;
+}
+
+#menu__toggle:checked ~ .menu__box {
+  visibility: visible;
+  right: 0;
+  background: #fff;
+color: white;
+text-align: center;
+}
+
+.menu__btn {
+      display: flex;
+    align-items: center;
+    position: fixed;
+    top: 28px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    z-index: 11;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+      display: block;
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background-color: #000;
+    transition-duration: .25s;
+}
+.menu__btn > span::before {
+  content: '';
+  top: -8px;
+
+}
+.menu__btn > span::after {
+  content: '';
+  top: 8px;
+
+}
+
+.menu__box {
+  display: block;
+  position: fixed;
+  visibility: hidden;
+  top: 0;
+  right: -100%;
+  z-index: 10;
+  width: 200px;
+  height: 100%;
+  margin: 0;
+  padding: 80px 0;
+  list-style: none;
+  background-color: #fff;
+  transition-duration: .25s;
+  box-shadow: 1px 0px 6px rgba(128, 128, 128, 1);
+}
+.menu_item1{
+    color: black;
+    text-decoration: none;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.menu_item1:hover{
+    color: black;
+    text-decoration: none;
+}
+
+.menu__box button{
+    background-color: #ffa001;
+    width: 80%;
+    border-radius: 5px;
+    border: 2px solid #ffa001;
+    color: white;
+    padding: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.menu{
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu p{
+    margin-top: 3px;
+}
+
+.logo_menu{
+    width: 315px;
+    max-width: 100%;
+}
+
+.center{
+    text-align: center;
+}
+
+.right{
+    text-align: right;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.column {
+    padding: 0px;
+}
+
+.main{
+    border-bottom: 1px solid rgba(118, 128, 136, 0.5)
+}
+
+.main h1{
+    font-family: Geist;
+    font-size: 85px;
+    font-weight: 500;
+    line-height: 65px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.main h3{
+    font-family: Geist;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: -12px;
+    color: rgba(49, 43, 47, 1);
+}
+
+.main h2{
+    font-family: Geist;
+    font-size: 62px;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: uppercase;
+    padding-left: 50px;
+}
+
+.main button{
+    width: 457px;
+    height: 63px;
+    border: 1px solid rgba(81, 121, 187, 1);
+    background: transparent;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.main img{
+    padding-left: 18px;
+}
+
+.main button:hover{
+    background: rgba(81, 121, 187, 1);
+    color: white;
+}
+
+.ab_plus{
+    position: relative;
+    text-align: right;
+}
+
+.vertical_line{
+    position: absolute;
+    height: 184px;
+    width: 2px;
+    background: rgba(81, 121, 187, 1);
+    right: 0px;
+}
+
+.about h3{
+    text-align: right;
+    padding-right: 17px;
+    margin-top: 16px;
+    font-family: Geist;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 37px;
+    letter-spacing: 0em;
+}
+
+.gor_line{
+    margin-top: 21px;
+    width: 211px;
+    height: 2px;
+    background: rgba(81, 121, 187, 1);
+    display: inline-block;
+}
+
+.ab_plus1{
+    position: absolute;
+    left: 50px;
+}
+
+.about h2{
+    font-family: Concrete;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+}
+
+.about p{
+    font-family: Geist;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+}
+
+.our_plus{
+    background: rgba(12, 10, 10, 1);
+    width: 100%;
+}
+
+.our_plus h2{
+    font-family: Concrete;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 66px;
+    letter-spacing: 0em;
+    color: white;
+}
+
+.our_plus_photo{
+    width: 485px !important;
+    max-width: 100% !important;
+}
+
+.one_of_plus{
+    width: 100%;
+    border: 1px solid rgba(229, 233, 234, 0.5);
+    height: 201px;
+    position: relative;
+}
+
+.our_plus h3{
+    font-family: Concrete;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    color: rgba(118, 128, 136, 1);
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.our_plus p{
+    font-family: Geist;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    max-width: 241px;
+    left: 20px;
+    margin-bottom: 0px;
+}
+
+.uslugi h2{
+    font-family: Concrete;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 66px;
+    letter-spacing: 0em;
+}
+
+.usl_bb{
+    width: 100%;
+    border-bottom: 1px solid rgba(118, 128, 136, 0.5)
+}
+
+.uslugi img{
+    width: 60px;
+}
+
+.uslugi h3{
+    font-family: Geist;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 43px;
+    letter-spacing: 0em;
+}
+
+.uslugi h4{
+    font-family: Geist;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0em;
+    color: rgba(81, 121, 187, 1);
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.uslugi h5{
+    font-family: Geist;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    margin-top: 7px;
+}
+
+.uslugi p{
+    font-family: Geist;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    color: rgba(118, 128, 136, 1);
+    text-align: left;
+    display: inline-block;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+.uslugi h6{
+    font-family: Geist;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 0em;
+    margin-top: 20px;
+}
+
+.ex_line{
+    width: 100%;
+    height: 4px;
+    background: rgba(49, 43, 47, 1);
+}
+
+.examples{
+    border-bottom: 1px solid rgba(118, 128, 136, 0.5);
+}
+
+.examples h2{
+    font-family: Concrete;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 66px;
+    letter-spacing: 0em;
+    margin-top: 40px;
+    margin-bottom: 27px;
+}
+
+.examples_button{
+    width: 381px;
+    border: 0.75px solid rgba(81, 121, 187, 1);
+    background: transparent;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    font-family: Geist;
+    font-size: 23px;
+    font-weight: 300;
+    line-height: 29px;
+    letter-spacing: 0em;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.examples_button img{
+    margin-top: 7px;
+}
+
+.examples_button:hover{
+    background: rgba(81, 121, 187, 1);
+    color: white;
+}
+
+.reviews h2{
+    font-family: Concrete;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 66px;
+    letter-spacing: 0em;
+}
+
+.contacts{
+    width: 100%;
+    background: rgba(49, 43, 47, 1);
+    color: white;
+    border-bottom: 1px solid rgba(118, 128, 136, 0.4)
+}
+
+.contacts h2{
+    font-family: Concrete;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 66px;
+    letter-spacing: 0em;
+}
+
+.contacts h4{
+    margin-top: 60px;
+    font-family: Geist;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 31px;
+    letter-spacing: 0em;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.contacts h3{
+    font-family: Geist;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 37px;
+    letter-spacing: 0em;
+}
+
+.input_text{
+    font-family: Geist;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0em;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: transparent;
+    border: none;
+    border-bottom: 1.08px solid rgba(255, 255, 255, 0.4);
+    width: 100%;
+    margin-top: 10px;
+}
+
+.input_text:focus-visible{
+    outline: none;
+}
+
+.input_text::-webkit-input-placeholder {
+    color: #fff;
+} 
+
+.input_text::-moz-placeholder {
+    color: #fff;
+}
+
+.input_btn{
+    margin-top: 46px;
+    width: 100%;
+    height: 83px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    font-family: Geist;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+    background: transparent;
+    color: white;
+}
+
+.input_btn:hover{
+    background: white;
+    color: rgba(49, 43, 47, 1);
+}
+
+.contacts h5{
+    font-family: Geist;
+    font-size: 25px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 31px;
+    letter-spacing: 0em;
+    margin-bottom: 35px;
+    margin-left: 15px;
+}
+
+.contacts img{
+    width: 45px;
+    margin-right: 24px;
+}
+
+.vk_left{
+    margin-left: 15px;
+}
+
+.foot{
+    background: rgba(49, 43, 47, 1);
+}
+
+.logo_foot{
+    width: 315px;
+}
+
+.foot p{
+    margin-top: 5px;
+    font-family: Geist;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    color: white;
+}
+
+.foot a{
+    text-decoration: none;
+}
+
+.icon_phone{
+    width: 29px;
+    margin-top: -5px;
+    margin-right: 22px;
+}
+
+.foot h3{
+    font-family: Geist;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    color: white;
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+.icon_mail{
+    width: 34.5px;
+    margin-right: 18.5px;
+    margin-top: -2px;
+}
+
+.con_inf{
+    margin-top: -5%;
+}
+
+.foot h4{
+    font-family: Geist;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    color: rgba(229, 233, 234, 0.5);
+}
+
+.carousel-item img{
+    width: 610px;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: rgba(81, 121, 187, 1);
+}
+
+.carousel-indicators{
+    margin-bottom: 0px;
+    bottom: -40px;
+}
+
+.one_rev{
+    width: 388px;
+    height: 313px;
+    border: 1px solid rgba(186, 186, 186, 0.7);
+    display: inline-block;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: left;
+    position: relative;
+}
+
+.strel_rev_slide{
+    width: 75px;
+    cursor: pointer;
+}
+
+.none_next_slide{
+    background-image: none !important;
+}
+
+.one_rev h3{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0em;
+}
+
+.one_rev p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    margin-top: 50px;
+}
+
+.cav_rev{
+    position: absolute;
+    right: 33px;
+    top: 0px;
+    width: 52px !important;
+}
+
+.examples a:hover{
+    text-decoration: none;
+}
+
+.contacts a{
+    color: white;
+    text-decoration: none;
+}
+
+.contacts a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+@media(max-width: 1400px){
+    .main h2{
+        font-size: 52px;
+    }
+    .one_rev{
+        width: auto;
+    }
+}
+
+@media(max-width: 1200px){
+    .hamburger-menu{
+    display: block;
+}
+.main h1{
+    font-size: 65px;
+}
+.main h2{
+    font-size: 42px;
+}
+.our_plus p{
+    font-size: 15px;
+}
+.one_rev{
+    height: 413px;  
+}
+header{
+    position: fixed;
+    height: 106px;
+    background: white;
+    width: 100%;
+    z-index: 100;
+    border-bottom: 1px solid rgba(175, 175, 175, 0.50);
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+}
+.logo_menu_mob{
+    width: 220px;
+    margin-top: 28px;
+    margin-left: 28px;
+}
+.main{
+    padding-top: 120px !important;
+}
+}
+
+@media(max-width: 992px){
+    .main h1{
+        font-size: 50px;
+    }
+    .main h3{
+        font-size: 16px;
+    }
+    .main h2{
+        font-size: 32px;
+        padding-left: 0px;
+    }
+    .left_lg{
+        text-align: left;
+    }
+    .one_rev{
+        height: 353px;
+    }
+}
+
+@media(max-width: 768px){
+    .main h1{
+        text-align: center;
+    }
+    .main h2{
+        text-align: right;
+        line-height: 1;
+    }
+    .logo_foot{
+        max-width: 100%;
+    }
+}
+
+.btn_mob_section{
+    cursor: pointer;
+    position: absolute;
+    width: 80%;
+    height: 30%;
+    bottom: 5%;
+    right: 0px;
+}
+
+@media(max-width: 576px){
+    .otstup{
+        width: 100%;
+        height: 106px;
+    }
+    .main{
+        height: 700px;
+        position: relative;
+        background: url(../img/mob_fon.png) center/cover no-repeat;
+    }
+    .about h2{
+        font-size: 35px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0em;
+    }
+    .about p{
+        margin-bottom: 0px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+    }
+    .about h3{
+        font-family: Geist;
+        font-size: 28px;
+        font-weight: 300;
+        line-height: 35px;
+    }
+    .ab_plus1 {
+        position: absolute;
+        left: 20px;
+        top: 30px;
+    }
+    .our_plus h2{
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 44px;
+        margin-top: -5px;
+    }
+    .our_plus h3{
+        font-size: 55px;
+        font-weight: 400;
+        line-height: 61px;
+    }
+    .our_plus p{
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 25px;
+    }
+    .mt_our_plus_mobile{
+        margin-top: -170px;
+    }
+    .uslugi h2{
+        font-size: 35px;
+        font-weight: 400;
+        line-height: 39px;
+
+    }
+    .uslugi img{
+        width: 37.5px;
+    }
+    .uslugi h3{
+        font-size: 23px;
+        font-weight: 400;
+        line-height: 29px;
+    }
+    .uslugi h4{
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 25px;
+    }
+    .uslugi h5{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 21px;
+    }
+    .uslugi p{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        margin-top: 15px;
+    }
+    .uslugi h6{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        margin-top: 15px;
+    }
+    .uslugi h5{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        margin-top: 15px;
+    }
+    .examples{
+        border-bottom: 0.5px solid rgba(118, 128, 136, 0.5);
+    }
+    .examples h2{
+        text-align: center;
+        font-size: 35px;
+        font-weight: 400;
+        line-height: 39px;
+        margin-top: 30px;
+        margin-bottom: 17px;
+    }
+    .examples_button{
+        width: 295px;
+        font-family: Geist;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 22px;
+        letter-spacing: 0em;
+        padding: 23px 23px 23px 23px;
+    }
+    .examples_button img{
+        width: 22px;
+    }
+    .mob_center{
+        text-align: center;
+    }
+    .reviews h2{
+        font-size: 35px;
+        font-weight: 400;
+        line-height: 39px;
+    }
+    .one_rev{
+        width: 333px;
+    }
+    .contacts h2{
+        font-size: 35px;
+        font-weight: 400;
+        line-height: 39px;
+    }
+    .contacts h4{
+        font-size: 16px;
+        line-height: 20px;
+        text-transform: uppercase;
+    }
+    .contacts h5{
+        font-size: 16px;
+        line-height: 20px;
+        margin-left: 0px;
+        text-transform: uppercase;
+    }
+    .vk_left{
+        margin-left: 0px;
+    }
+    .contacts p{
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 21px;
+        max-width: 287px;
+        margin-top: 60px;
+        margin-bottom: 0px;
+    }
+    .input_text{
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 21px;
+    }
+    .input_btn{
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+        width: 301px;
+        height: 65px;
+    }
+    .logo_foot{
+        width: 257px;
+    }
+    .foot h6{
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 20px;
+        color: rgba(255, 255, 255, 0.7);
+        width: 275px;
+        text-transform: uppercase;
+        display: inline-block;
+        margin-top: 21px;
+    }
+}
+
+@media(max-width: 400px){
+    .otstup{
+        width: 100%;
+        height: 106px;
+    }
+    .main{
+        height:577px;
+        position: relative;
+        background: url(../img/mob_fon.png) center/cover no-repeat;
+    }
+}
