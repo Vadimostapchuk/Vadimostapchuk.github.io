@@ -1,0 +1,158 @@
+body{
+	background: white;
+	color: black;
+	font-family: Arial, sans-serif;
+}
+
+header{
+	position: fixed;
+	width: 100%;
+	z-index: 2
+}
+
+img{
+	width: 100%;
+}
+
+a{
+	text-decoration: underline;
+	color: black;
+}
+
+.text{
+	display: none;
+	width: 100%;
+	border: 1px dashed black;
+}
+
+.body1{
+	position: relative;
+	z-index: 0;
+}
+
+#btn_1{
+	border-radius: 5px;
+	background: white;
+	color: black;
+	border: 1px solid black;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#btn_2{
+	border-radius: 5px;
+	background: black;
+	color: white;
+	border: 1px solid white;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#btn_3{
+	background: rgb(157, 209, 255);
+	color: rgb(6, 52, 98);
+	font-size: 20px;
+	font-weight: bold;
+	border: 1px solid rgb(6, 52, 98);
+	border-radius: 5px;
+}
+
+#btn_4{
+	background: #f7f3d6;
+	color: #4d4b43;
+	font-size: 20px;
+	font-weight: bold;
+	border: 1px solid #4d4b43;
+	border-radius: 5px;
+}
+
+#btn_5{
+	background: #3b2716;
+	color: #a9e44d;
+	font-size: 20px;
+	font-weight: bold;
+	border: 1px solid #a9e44d;
+	border-radius: 5px;
+}
+
+.btn_a{
+	background: transparent;
+	border: none;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+#btn_7{
+	font-size: 16px;
+}
+
+#btn_8{
+	font-size: 18px;
+}
+
+#btn_9{
+	font-size: 22px;
+}
+
+#btn_10{
+	font-size: 26px;
+}
+
+.btn_img{
+	height: 35px;	
+	width: 45px;
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+#btn_11{
+	background: url(../img/1.png) 100% 100% no-repeat;
+	background-size: contain;
+	border: none;
+}
+
+#btn_12{
+	background: url(../img/2.png) 100% 100% no-repeat;
+	background-size: contain;
+	border: none;
+}
+
+#btn_13{
+	background: url(../img/4.png) 100% 100% no-repeat;
+	background-size: contain;
+	border: none;
+}
+
+#btn_14{
+	background: url(../img/3.png) 100% 100% no-repeat;
+	background-size: contain;
+	border: none;
+}
+
+.grey_fon{
+	background: #e1e1e1;
+	padding-top:5px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	border: 1px solid #FBF5F6;
+	border-radius: 10px;
+}
+
+.dop_content{
+	display: none;
+	color: #404040;
+	font-weight: 700;
+}
+
+.dop_content button{
+	border: 1px solid #063462;
+	border-radius: 3px;
+    color: #063462;
+    font-weight: 700;
+    background: transparent;
+}
+
+.dop_content button:hover{
+	background: #063462;
+	color: white;
+}
