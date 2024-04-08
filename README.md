@@ -19,3 +19,4 @@
 - [tandem](https://vadimostapchuk.github.io/tandem/) - сайт для дистрибьюторской компании
 - [42_bureau](https://vadimostapchuk.github.io/42_bureau/) - лэндинг для продажи ПО
 - [amakids](https://vadimostapchuk.github.io/amakids/) - лэндинг для образовательного центра
+- [нурмойла](https://github.com/Vadimostapchuk/porfolio-nurmoyla/tree/main) - сайт для тур базы с базой данных и админ панелью на pocketbase
