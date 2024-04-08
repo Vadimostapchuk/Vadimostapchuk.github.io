@@ -18,3 +18,4 @@
 - [komfort_sreda](https://vadimostapchuk.github.io/komfort_sreda/) - сайт управляющий компании
 - [tandem](https://vadimostapchuk.github.io/tandem/) - сайт для дистрибьюторской компании
 - [42_bureau](https://vadimostapchuk.github.io/42_bureau/) - лэндинг для продажи ПО
+- [amakids](https://vadimostapchuk.github.io/amakids/) - лэндинг для образовательного центра
